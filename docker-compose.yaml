@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  db:
+    image: mysql
+    command: '--default-authentication-plugin=mysql_native_password'
+    restart: always
+    environment:
+      - MYSQL_DATABASE=automate
+      - MYSQL_ROOT_PASSWORD=123
+  app:
+    build: app
+    restart: always
+  web:
+    build: web
+    restart: always
+    ports:
+      - 80:80

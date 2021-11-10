@@ -1,3 +1,3 @@
-# python-docker-base
+# automate-the-boring-stuff
 
-This is a sample docker compose environment for personal Python development. Based on [this blog series](https://www.docker.com/blog/tag/python-env-series/) on the subject.
+Simple repository to follow the [Automate the Boring Stuff](https://automatetheboringstuff.com) tutorial and practice
